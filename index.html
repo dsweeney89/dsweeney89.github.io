@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bangers|Press+Start+2P|Prosto+One|Special+Elite|Unica+One" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Prosto+One" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+
+
+
+<body>
+
+    <div class="container-fluid top animated fadeIn">
+
+
+
+        <nav class="navbar " role="navigation" aria-label="main mavigation">
+
+            <div class="navbar-brand">
+
+                <a class="navbar-item" href="index.html">
+
+                        <i class="fas fa-film animated bounce">&nbsp;</i>MovieSearch
+
+                </a>
+
+            </div>
+
+            <div class="navbar-end animated fadeIn">
+ 
+                <a class="navbar-item omdb " target="_blank" href="http://www.omdbapi.com/">API Courtesy of OMDB</a>
+            </div>
+
+
+        </nav>
+
+
+
+        <section class="hero animated fadeInUp">
+            <div class="hero-body ">
+                <p class="panel-heading">Search</p>
+                <div class="panel-block">
+                    <form id="searchForm">
+                        <div class="control has-icons-left  ">
+                            <input type="text" class="input is-rounded" id="searchText" placeholder="Seach Movies....">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+
+        
+    </section>
+
+        <div class="container">
+        <div id="movies" class="columns is-multiline is-mobile"></div>
+    </div>
+
+
+    </div>
+
+<div class="middle"></div>
+
+<div class="bottom"></div>
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
