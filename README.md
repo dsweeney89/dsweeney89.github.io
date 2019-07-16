@@ -1,4 +1,4 @@
-#Online Movie Database - Movie Search Application
+Online Movie Database - Movie Search Application
 
 A simple search page using the OMDb API with Axios and JQuery, styled using Bulma
 
